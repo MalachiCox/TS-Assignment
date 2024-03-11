@@ -47,7 +47,6 @@ class parkingGarage {
             let takenParking = currentParking.pop();
             tickets.push(takenTicket);
             parkingSpaces.push(takenParking);
-            let currentLot = [tickets, parkingSpaces];
             console.log(`Tickets left: ${tickets}
             \nParking Spaces left: ${parkingSpaces}`);
             return 'Bye';
